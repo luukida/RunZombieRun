@@ -16,9 +16,12 @@ public class OpenDoor : MonoBehaviour
         
     }
 
-    void OnTriggerStay()
+    void OnTriggerEnter(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(other.transform.tag == "Player")
+        {
             hinge.Play();
+            this.gameObject.GetComponent<BoxCollider>().enabled = false;
+        }
     }
 }

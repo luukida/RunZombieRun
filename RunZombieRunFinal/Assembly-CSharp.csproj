@@ -83,6 +83,7 @@
      <Compile Include="Assets\_Scripts\ScreenLogin.cs" />
      <Compile Include="Assets\_Scripts\Zombie.cs" />
      <Compile Include="Assets\OpenDoor.cs" />
+     <Compile Include="Assets\PickKey.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
